@@ -4,10 +4,10 @@ interface lan1 - vlan 210 (access) 172.26.154.0 - Dados
 interface lan3 - vlan 227 (tagged) 10.10.0.0/24 - Claboradores "DHCP"
 interface lan5 - vlan 225 (tagged) 10.11.0.0/24 - Visitantes "DHCP"
 
-
-
 Salas demais
 2 portas
 interface lan3 - vlan 227 (access para a sala de reunião)
 1 porta
 iterface lan7 - vlan 226 (access) 10.12.0.0/24 (sala da cipp)
+
+ainda em implatação
