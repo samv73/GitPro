@@ -1,0 +1,35 @@
+------------------------- Tips -------------------------
+
+• To easily see where shortcuts go, in Windows Explorer enable the "Link Target" column. (Right click column headers > More > Link Target)
+        Note: The column will not show what it considers "arguments" (anything after a space in the target path), so this column is mostly useful for the "URL Protocols", "Hidden App Links", and "System Settings" folders.
+
+• Some links might not work or show an error, this is normal because many links are undocumented or might be leftovers not still in use from older Windows versions.
+        For example, the "All Task Links" folder contains links that might normally be hidden except under certain conditions where they apply like the computer is a tablet, has a pen, or uses a certain language.
+
+• The script will generate different amounts of shortcuts depending on the version of Windows, what features are enabled, and what software is installed.
+        - The script doesn't use a hardcoded list of shortcuts, it actually reads the system to find what is available.
+        - All the shortcuts use the actual icons and names associated with them in the system. Only the names and icons of the main folders are chosen by me.
+
+
+------------------- Additional Notes -------------------
+
+• Notes about the "Hidden App Links" folder:
+        - You'll notice the list of URLs in the CSV statistics file is longer than the number of shortcuts actually created.
+             > This is because Some of the found URLs contain "variable" placeholders (such as {1} or end in an equals sign) which require information to be filled in at runtime, so they can't be made into shortcuts.
+             > These can be identified via the "Embedded Variables" column in the CSV file. They are still collected for informational purposes.
+        - These URLs are pulled directly from the text of application files and binaries and are mostly undocumented or meant for internal use. That's why I call them "hidden".
+             > Therefore these links might not work, or might contain oddly specific references, such as "xbox://search/?productType=games&query=angry%20birds"
+             > That's because the URL was contained somewhere in some app file, possibly as an example, for testing, or even part of a help message. I chose to just include them all.
+
+• The "easy launcher" batch file isn't necessary to run the script, it just makes it easier to run the script with a double-click.
+        - Since by default Windows will not run PowerShell scripts without a special command/setting (called the "Execution Policy"), the batch file uses a command to to allow the script to run for that temporary session.
+        - Alternatively, you could run this command yourself in a powershell window before running the script:   		    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+            > Which also would just allow scripts for that current PowerShell session, then you can run the script with: 	.\Super_God_Mode.ps1
+            > NOTE: When doing this yourself using Set-ExecutionPolicy, DO NOT forget the -Scope Process part, or it could lessen your system security by allowing all scripts to run permanently.
+
+
+---------------------------------------------------------------------------
+Created With:   "Super God Mode" Script - Version: 1.1.0
+Author:         ThioJoe
+Project Link:   https://github.com/ThioJoe/Windows-Super-God-Mode
+

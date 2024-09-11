@@ -1,0 +1,29 @@
+Adminimize;
+- Advanced Custom Fields;  ok
+- Advanced Custom Fields: Repeater Field;
+- Chatbot - Elogroup/Ilhasoft;
+- Conta Clique;
+- Contact Form 7;    ok
+- Contact Form DB;    -------Contact Form 7 Database Addon – CFDB7
+- Crop Thumbnails;   ok
+- Duplicate Post;    ok
+- Easy Updates Manager;    ok
+- Editor clássico;    ok
+- FG Joomla to WordPress;    ok
+- Google Captcha (reCAPTCHA) by BestWebSoft;    ok
+- IFrame Shortcode;
+- Importador do WordPress;     ok
+- MultiSite Clone Duplicator;   ok
+- Proxy Cache Purge;    ok
+- Re-Add Text Justify Button;    ok
+- Really Simple SSL;     ok
+- Regenerate Thumbnails;    ok
+- SMTP Mailer;     ok
+- Solr Post;
+- Sucuri Security - Auditing, Malware Scanner and Hardening;
+- SVG Support;     ok
+- TablePress;
+- TablePress Extension: Table Auto Update;
+- User Role Editor;    ok
+- WPCode Lite;
+- Yoast SEO.     ok
